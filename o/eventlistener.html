@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event Listener Example</title>
+</head>
+<body>
+
+<button id="myButton">Click me</button>
+<p id="geek"></p>
+
+<script>
+// Get the button element by its ID
+var button = document.getElementById("myButton");
+var geek=document.getElementById("geek")
+
+// Define the event handler function
+function handleClick() {
+//   alert("Button clicked!");
+geek.innerHTML='<H1>GeeksforGeeks</H1>'
+}
+
+// Attach the event listener to the button
+button.addEventListener("click", handleClick);
+
+</script>
+
+</body>
+</html>

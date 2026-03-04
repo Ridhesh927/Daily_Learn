@@ -17,3 +17,5 @@ console.log(triple(5));  // should be 15
 
 const double = makeMultiplier(2);
 console.log(double(5));  // should be 10
+
+
